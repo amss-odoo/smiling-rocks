@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+    <!-- header logo  -->
+    <record id="website.default_website" model="website">
+        <field name="logo" type="base64" file="rocks/static/src/img/content/logo.svg"/>
+    </record>
+
+    <!-- deactivating default header  -->
+    <record id="website.template_header_default" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+
+
+    <template id="snippet_options" inherit_id="website.snippet_options" name="Rocks - Mega Menu Options">
+        <xpath expr="//*[@data-name='mega_menu_template_opt']/*" position="before">
+            <t t-set="_label">Jewel</t>
+            <we-button t-att-data-select-label="_label"
+                data-select-template="rocks.s_mega_menu_rock"
+                data-img="/rocks/static/src/img/wbuilder/tour.jpg"
+                t-out="_label"/>
+        </xpath>
+    </template>
+
+</odoo>

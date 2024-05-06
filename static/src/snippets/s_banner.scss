@@ -1,0 +1,35 @@
+.banner{
+    height: 50vh;
+}
+
+.banner::before{
+    content: ' ';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(90deg, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+
+.banner-text{
+    position: relative;
+    z-index: 1;
+}
+
+.sub-heading{
+    opacity: 70%;
+}
+
+a.banner-cta:link,a.banner-cta:visited{
+    color: #ddccca !important;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: all 100ms ease-in;
+    // border: 1px #89736e solid;
+}
+
+a.banner-cta:hover, a.banner-cta:active{
+    background-color: #89736e !important;
+    color: #ddccca !important;
+}

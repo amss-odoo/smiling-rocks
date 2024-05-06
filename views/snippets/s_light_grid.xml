@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_light_grid" name="Light Grid">
+        <section class="s_light_grid" data-name="Light Grid" data-snippet="light_grid">
+            <div class="light-grid d-flex flex-column align-items-center justify-content-center p-5">
+                <h2 class="grid-heading mb-5 fw-lighter text-uppercase text-center">
+                    What sets us apart
+                </h2>
+                <div class="grid-container">
+                    <div class="row h-50">
+                        <div class="col tile rounded d-flex flex-column align-items-center justify-content-center border-end border-bottom p-2 w-50">
+                            <img src="/web/image/rocks.labGrown" class="w-25 mb-2"/>
+                            <p class="grid-text m-0">Lab grown diamond &amp; jewelry</p>
+                        </div>
+                        <div class="col tile rounded d-flex flex-column align-items-center justify-content-center p-2 w-50">
+                            <img src="/web/image/rocks.charity" class="w-25 mb-2"/>
+                            <p class="grid-text m-0">3&#37; of each purchase goes to your choice of charity</p>
+                        </div>
+                    </div>
+                    <div class="row h-50">
+                        <div class="col tile rounded d-flex flex-column align-items-center justify-content-center p-2 w-50">
+                            <img src="/web/image/rocks.laser" class="w-25 mb-2"/>
+                            <p class="grid-text m-0">Laser inscribed diamonds with Smiling Rocks logo</p>
+                        </div>
+                        <div class="col tile rounded d-flex flex-column align-items-center justify-content-center border-start border-top p-2 w-50">
+                            <img src="/web/image/rocks.butterfly" class="w-25 mb-2 opacity-75"/>
+                            <p class="grid-text m-0">ESG+ Certified Brand Butterfly Mark</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

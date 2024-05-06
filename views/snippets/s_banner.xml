@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_banner" name="Collection Banner">
+        <section class="s_banner parallax s_parallax_is_fixed s_parallax_no_overflow_hidden" data-scroll-background-ratio="1" data-name="Collection Banner" data-snippet="collection_banner">
+            <span class="s_parallax_bg oe_img_bg o_bg_img_center" style="background-image: url('/web/image/rocks.frame'); background-position: 50% 75%;"/>
+            <div class="banner py-3 position-relative d-flex align-items-center">
+                <div class="container">
+                    <div class="banner-text">
+                        <!-- <p class="text-primary">Lab Grown Diamonds</p> -->
+                        <h2 class="collection-name text-primary fw-bold text-uppercase">Frame</h2>
+                        <p class="sub-heading text-primary">Frame the elegance of your style. Explore the collection.</p>
+                        <a href="#" class="banner-cta text-uppercase p-2 rounded">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="s_hero" name="Hero Section">
+        <section class="s_hero" data-name="Hero Section" data-snippet="hero_section" data-vcss="rocks/static/src/snippets/s_hero.scss">
+            <div class="hero hero-content d-flex flex-column align-items-center justify-content-end text-primary py-3">
+                <h1 class="hero-main text-uppercase fs-3 fw-bold"> Luxury for every chapter. </h1>
+                <p class="hero-sub fs-5">Discover jewellery that reflects you.</p>
+            </div>
+        </section>
+    </template>
+
+</odoo>

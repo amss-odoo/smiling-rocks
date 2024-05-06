@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+
+    <!-- custom home page -->
+    <template id="homepage" name="HomePage" inherit_id="website.homepage">
+        <xpath expr="//div[@id='wrap']" position="replace">
+            <div class="oe_structure oe_editable">
+                <!-- <t t-call="rocks.s_hero"></t> -->
+            </div>
+        </xpath>
+    </template>
+</odoo>

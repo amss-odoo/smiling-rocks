@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_blog" name="Blog Section">
+        <section class="s_blog" data-name="Blog Section" data-snippet="blog_section" data-vcss="rcoks/static/src/snippets/s_blog.scss">
+            <div class="blog p-5">
+                <div class="container glass p-3 h-100">
+                    <div class="row h-100 justify-content-between">
+                        <div class="blog-text d-flex flex-column justify-content-center col-4">
+                            <h2 class="blog-heading text-primary fw-bold">
+                                Blog and Style Guide
+                            </h2>
+                            <p class="blog-sub-heading fw-light fs-5 text-primary">
+                                Sharing our style and looks for lab grown diamond jewellery collections!
+                            </p>
+                        </div>
+                        <div class="blog-card-flex d-flex flex-column justify-content-between col-7">
+                            <div class="blog-card d-flex align-items-center justify-content-between position-relative rounded">
+                                <div class="blog-card-img ">
+                                    <img src="/web/image/rocks.heirloom" class="w-100 h-100 rounded-start"/>
+                                </div>
+                                <div class="blog-card-text pe-3">
+                                    <h3 class="card-heading text-secondary fw-bold fs-3">Adding to heirlooms</h3>
+                                    <span class="blog-date opacity-75">April 27,2023</span>
+                                    <p class="card-text mt-1">What makes fashion, Classic, Modern or Timeless?</p>
+                                </div>
+                                <a href="#" class=" card-link link-secondary position-absolute">Read Here →</a>
+                            </div>
+                            <div class="blog-card d-flex align-items-center justify-content-between position-relative rounded">
+                                <div class="blog-card-img ">
+                                    <img src="/web/image/rocks.blog-diamond" class="w-100 rounded-start h-100"/>
+                                </div>
+                                <div class="blog-card-text pe-3">
+                                    <h3 class="card-heading text-secondary fw-bold fs-3">Unseen Aura of Lab Grown Diamonds</h3>
+                                    <span class="blog-date opacity-75">April 05,2023</span>
+                                    <p class="card-text mt-1">What's so different about them?</p>
+                                </div>
+                                <a href="#" class=" card-link link-secondary position-absolute">Read Here →</a>
+                            </div>
+                            <div class="blog-card d-flex align-items-center justify-content-between position-relative rounded">
+                                <div class="blog-card-img ">
+                                    <img src="/web/image/rocks.jacket" class="w-100 h-100 rounded-start"/>
+                                </div>
+                                <div class="blog-card-text pe-3">
+                                    <h3 class="card-heading text-secondary fw-bold fs-3">Jackets &amp; Jewelry</h3>
+                                    <span class="blog-date opacity-75">March 26,2023</span>
+                                    <p class="card-text mt-1">Chic and stylish, that's the combo.</p>
+                                </div>
+                                <a href="#" class=" card-link link-secondary position-absolute">Read Here →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </template>
+</odoo>

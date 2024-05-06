@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="s_mega_menu_rock" name="Rocks" groups="base.group_user">
+        <section class="s_mega_menu_rock o_cc o_cc1 pt40">
+        <!-- Content -->
+            <p class="text-secondary">
+                hello
+            </p>
+        </section>
+    </template>
+</odoo>

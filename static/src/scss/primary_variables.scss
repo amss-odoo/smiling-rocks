@@ -1,0 +1,36 @@
+$o-website-values-palettes: (
+    (
+        'color-palettes-name': 'rocks',
+
+        'header-template': 'rocks',
+
+        'font': 'Inter',
+        'headings-font': 'Lora',
+    ),
+);
+
+
+// font import 
+$o-theme-font-configs: (
+    'Inter': (
+        'family': ('Inter',sans-serif),
+    ),
+    'Lora': (
+        'family': ('Lora',sans-serif),
+    )
+);
+
+// color palette 
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'rocks': (
+            'o-color-1': #ddccca,
+            'o-color-2': #39322e,
+            'o-color-3': #89736e,
+            'o-color-4': #f8f4f4,
+            'o-color-5': #282320,
+        ),
+    )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'rocks');

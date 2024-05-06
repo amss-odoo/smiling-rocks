@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <!-- themed-footer-option  -->
+    <template id="template_footer_opt" inherit_id="website.snippet_options" name="Footer Template - Option">
+        <xpath expr="//we-select[@data-variable='footer-template']" position="inside">
+            <we-button title="rocks" 
+            data-customize-website-views="rocks.footer" data-customize-website-variable="'rocks'" 
+            data-img="/rocks/static/src/img/wbuilder/tour.jpg"/>
+        </xpath>
+    </template>
+    <record id="footer" model="ir.ui.view">
+        <field name="name"> Rock Footer</field>
+        <field name="type"> qweb</field>
+        <field name="key">rocks.footer</field>
+        <field name="inherit_id" ref="website.layout"/>
+        <field name="mode">extension</field>
+        <field name="arch" type="xml">
+            <xpath expr="//div[@id='footer']" position="replace">
+                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
+                    <div class="container">
+                        <div class="footer-flex">
+                            <div class="footer-social">
+                                <div class="footer-img">
+                                    <img src="/web/image/rocks.footer-img"/>
+                                </div>
+                                <div class="social-flex"></div>
+                                <p class="footer-email">info@smilingrocks.com</p>
+                            </div>
+                            <div class="footer-links">
+                                <nav class="footer-nav">
+                                    <ul>
+                                        <li class="nav-item">
+                                            <a href="https://www.facebook.com/smilingrocksco/">
+                                                <img src="/web/image/rocks.fb"/>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.instagram.com/smilingrocksco/">
+                                                <img src="/web/image/rocks.insta"/>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://twitter.com/smilingrocksco">
+                                                <img src="/web/image/rocks.twitter"/>
+                                            </a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="https://www.youtube.com/channel/UC8ZQPBXjb_bgGJ5FjlywmqQ">
+                                                <img src="/web/image/rocks.youtube"/>
+                                            </a>
+                                        </li>                                       
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </xpath>
+        </field>
+    </record>
+</odoo>

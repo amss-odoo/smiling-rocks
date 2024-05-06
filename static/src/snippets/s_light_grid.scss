@@ -1,0 +1,27 @@
+.light-grid{
+    height: 75vh;
+}
+
+.light-grid h2{
+    letter-spacing: 2px;
+    position: relative;
+}
+
+.light-grid h2::after{
+    content: ' ';
+    height: 1px;
+    width: 80%;
+    background-color: #89736e;
+    position: absolute;
+    bottom: -10%;
+    left: 10%;
+}
+
+.grid-container{
+    height: 80%;
+    width: 60%;
+}
+
+.tile:hover{
+    background-color: #ece2e1;
+}

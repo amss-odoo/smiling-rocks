@@ -1,0 +1,44 @@
+.blog{
+    background-image: url('/web/image/rocks.blog');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #39322e;
+    height: calc(100vh - 80px);
+}
+
+.glass{
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 222, 204, 202, 0.37 );
+    backdrop-filter: blur( 3px );
+    -webkit-backdrop-filter: blur( 3px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.blog-heading{
+    font-size: 4rem;
+}
+
+.blog-card{
+    background-color: rgba( 222, 204, 202, 0.5 );
+    height: 30%;
+    transition: all 100ms ease-in-out;
+}
+
+.blog-card:hover{
+    transform: scale(1.03);
+}
+
+.blog-card-img{
+    width: 40%;
+    height: 100%;
+}
+
+.blog-card-text{
+    width: 50%;
+}
+
+.card-link{
+    bottom: 10px;
+    right:10px;
+}

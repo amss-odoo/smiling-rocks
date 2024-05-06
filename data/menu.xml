@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <delete model="website.menu" search="[('url','in', ['/', '/']), ('website_id', '=', 1)]"/>
+
+    <delete model="website.menu" search="[('url','in', ['/', '/contactus']), ('website_id', '=', 1)]"/>
+
+
+    <!-- custom menu  -->
+    <record id="menu_about" model="website.menu">
+        <field name="name">About Us</field>
+        <field name="url">/about-us</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <record id="menu_blog" model="website.menu">
+        <field name="name">Blog</field>
+        <field name="url">/blog</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+    <record id="menu_more" model="website.menu">
+        <field name="name">More of Us</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" search="[
+        ('url', '=', '/default-main-menu'),
+        ('website_id', '=', 1)]"/>
+        <field name="sequence" type="int">4</field>
+    </record>
+
+    <!-- more of us submenu  -->
+    <record id="more_item_1" model="website.menu">
+        <field name="name">Impact</field>
+        <field name="url">/impact</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="rocks.menu_more"/>
+        <field name="sequence" type="int">1</field>
+    </record>
+
+    <record id="more_item_2" model="website.menu">
+        <field name="name">Lookbook</field>
+        <field name="url">/lookbook</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="rocks.menu_more"/>
+        <field name="sequence" type="int">2</field>
+    </record>
+
+    <record id="more_item_3" model="website.menu">
+        <field name="name">Press</field>
+        <field name="url">/press</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="rocks.menu_more"/>
+        <field name="sequence" type="int">3</field>
+    </record>
+
+    <record id="more_item_4" model="website.menu">
+        <field name="name">Celebrity</field>
+        <field name="url">/celebrity</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="rocks.menu_more"/>
+        <field name="sequence" type="int">4</field>
+    </record>
+
+    <record id="more_item_5" model="website.menu">
+        <field name="name">Lab-Grown Diamonds</field>
+        <field name="url">/lab-grown</field>
+        <field name="website_id">1</field>
+        <field name="parent_id" ref="rocks.menu_more"/>
+        <field name="sequence" type="int">5</field>
+    </record>
+
+</odoo>

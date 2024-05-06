@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="thumb" model="ir.attachment">
+        <field name="name">wbuilder_banner</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/wbuilder/tour.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="menu1" model="ir.attachment">
+        <field name="name">mega_img_1</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/menu-1.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="menu2" model="ir.attachment">
+        <field name="name">mega_img_2</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/menu-2.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="labGrown" model="ir.attachment">
+        <field name="name">lab_grown</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/labGrown.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="charity" model="ir.attachment">
+        <field name="name">charity</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/charity.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="laser" model="ir.attachment">
+        <field name="name">laser</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/laser.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="butterfly" model="ir.attachment">
+        <field name="name">butterfly</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/butterfly.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="frame" model="ir.attachment">
+        <field name="name">frame</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/banner-frame.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="heirloom" model="ir.attachment">
+        <field name="name">heirloom</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/heirloom.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="blog-diamond" model="ir.attachment">
+        <field name="name">blog-diamond</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/lab-grown-blog.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="jacket" model="ir.attachment">
+        <field name="name">jacket</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/jacket.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="blog" model="ir.attachment">
+        <field name="name">blog</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/ttten.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="footer-img" model="ir.attachment">
+        <field name="name">footer-img</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/footer.png"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="fb" model="ir.attachment">
+        <field name="name">facebook</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/facebook-f.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="insta" model="ir.attachment">
+        <field name="name">instagram</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/instagram.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="twitter" model="ir.attachment">
+        <field name="name">twitter</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/twitter.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="yt" model="ir.attachment">
+        <field name="name">youtube</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/youtube.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+</odoo>

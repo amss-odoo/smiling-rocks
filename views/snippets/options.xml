@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="snippets" inherit_id="website.snippets" name="Rocks Snippets">
+        <xpath expr="//*[@id='default_snippets']" position="before">
+            <t id="rocks_snippets">
+                <div id="rock_snippets_category" class="o_panel">
+                    <div class="o_panel_body">
+                        <t t-snippet="rocks.s_hero" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
+                            <keywords>hero</keywords>
+                        </t>
+                        <t t-snippet="rocks.s_light_grid" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
+                            <keywords>light,grid</keywords>
+                        </t>
+                        <t t-snippet="rocks.s_banner" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
+                            <keywords>banner,cta</keywords>
+                        </t>
+                        <t t-snippet="rocks.s_blog" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
+                            <keywords>blog,blog list</keywords>
+                        </t>
+                    </div>
+                </div>
+            </t>
+        </xpath>
+    </template>
+</odoo>
