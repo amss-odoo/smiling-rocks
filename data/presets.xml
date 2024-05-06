@@ -11,6 +11,15 @@
         <field name="active" eval="False"/>
     </record>
 
+    <!-- deactivating default foooter  -->
+    <record id="website.footer_custom" model="ir.ui.view">
+        <field name="active" eval="False"/>
+    </record>
+    <!-- no copyright  -->
+    <record id="website.footer_no_copyright" model="ir.ui.view">
+        <field name="active" eval="True"/>
+    </record>
+
 
     <template id="snippet_options" inherit_id="website.snippet_options" name="Rocks - Mega Menu Options">
         <xpath expr="//*[@data-name='mega_menu_template_opt']/*" position="before">
