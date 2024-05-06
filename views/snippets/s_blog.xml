@@ -6,10 +6,10 @@
                 <div class="container glass p-3 h-100">
                     <div class="row h-100 justify-content-between">
                         <div class="blog-text d-flex flex-column justify-content-center col-4">
-                            <h2 class="blog-heading text-primary fw-bold">
+                            <h2 class="blog-heading text-secondary fw-bold">
                                 Blog and Style Guide
                             </h2>
-                            <p class="blog-sub-heading fw-light fs-5 text-primary">
+                            <p class="blog-sub-heading fw-light fs-5 text-secondary">
                                 Sharing our style and looks for lab grown diamond jewellery collections!
                             </p>
                         </div>
