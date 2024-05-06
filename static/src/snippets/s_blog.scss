@@ -2,7 +2,7 @@
     background-image: url('/web/image/rocks.blog');
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #39322e;
+    // background-color: #39322e;
     height: calc(100vh - 80px);
 }
 
@@ -22,7 +22,7 @@
 .blog-card{
     background-color: rgba( 222, 204, 202, 0.5 );
     height: 30%;
-    transition: all 100ms ease-in-out;
+    transition: all 200ms ease-in-out;
 }
 
 .blog-card:hover{
