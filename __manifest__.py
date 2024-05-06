@@ -13,6 +13,7 @@
         'data/menu.xml',
 
         'views/header.xml',
+        'views/footer.xml',
         'views/website_templates.xml',
         'views/snippets/options.xml',
         'views/snippets/s_hero.xml',
@@ -29,6 +30,7 @@
         'web.assets_frontend': [
             'rocks/static/src/scss/font.scss',
             'rocks/static/src/scss/mega_menu.scss',
+            'rocks/static/src/scss/footer.scss',
             'rocks/static/src/snippets/s_hero.scss',
             'rocks/static/src/snippets/s_light_grid.scss',
             'rocks/static/src/snippets/s_banner.scss',
