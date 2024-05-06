@@ -9,49 +9,74 @@
             data-img="/rocks/static/src/img/wbuilder/tour.jpg"/>
         </xpath>
     </template>
+
+
     <record id="footer" model="ir.ui.view">
-        <field name="name"> Rock Footer</field>
-        <field name="type"> qweb</field>
+        <field name="name">Rock Footer</field>
+        <field name="type">qweb</field>
         <field name="key">rocks.footer</field>
         <field name="inherit_id" ref="website.layout"/>
         <field name="mode">extension</field>
         <field name="arch" type="xml">
             <xpath expr="//div[@id='footer']" position="replace">
-                <div id="footer" class="oe_structure oe_structure_solo" t-ignore="true" t-if="not no_footer">
-                    <div class="container">
-                        <div class="footer-flex">
-                            <div class="footer-social">
-                                <div class="footer-img">
-                                    <img src="/web/image/rocks.footer-img"/>
+                <div id="footer" class="oe_structure oe_structure_solo bg-primary" t-ignore="true" t-if="not no_footer">
+                    <div class="container p-4">
+                        <div class="footer-flex row align-items-center">
+                            <div class="footer-social col d-flex align-items-center gap-3">
+                                <div class="footer-img mb-2 w-25">
+                                    <img src="/web/image/rocks.footer-img" class="h-100 w-100 "/>
                                 </div>
-                                <div class="social-flex"></div>
-                                <p class="footer-email">info@smilingrocks.com</p>
+                                <!-- <div class="social-flex d-flex">
+                                    <div class="nav-item">
+                                        <a href="https://www.facebook.com/smilingrocksco/" >
+                                            <img src="/web/image/rocks.fb" class="h-25"/> 
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a href="https://www.instagram.com/smilingrocksco/">
+                                            <img src="/web/image/rocks.insta" class="h-25"/> 
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a href="https://twitter.com/smilingrocksco">
+                                            <img src="/web/image/rocks.twitter" class="h-25"/> 
+                                        </a>
+                                    </div>
+                                    <div class="nav-item">
+                                        <a href="https://www.youtube.com/channel/UC8ZQPBXjb_bgGJ5FjlywmqQ">
+                                            <img src="/web/image/rocks.yt" class="h-25"/> 
+                                        </a>
+                                    </div>      
+                                </div> -->
+                                    <p class="footer-email text-secondary">info@smilingrocks.com</p>
+                                <!-- <div class="soc">
+                                    <div class="social-flex gap-2 d-flex mb-2 w-25">
+                                        <a href="#" class=""><img src="/web/image/rocks.fb" class="border border-secondary d-inline-block "/></a>
+                                        <a href="#" class=""><img src="/web/image/rocks.insta" class="border border-secondary d-inline-block"/></a>
+                                        <a href="#" class=""><img src="/web/image/rocks.yt" class="border border-secondary d-inline-block "/></a>
+                                        <a href="#" class=""><img src="/web/image/rocks.twitter" class="border border-secondary d-inline-block "/></a>
+                                    </div>
+                                </div> -->
+                                <!-- <a href="https://www.youtube.com/channel/UC8ZQPBXjb_bgGJ5FjlywmqQ" class="oi oi-youtube"/> -->
                             </div>
-                            <div class="footer-links">
+                            <div class="footer-links col">
                                 <nav class="footer-nav">
-                                    <ul>
-                                        <li class="nav-item">
-                                            <a href="https://www.facebook.com/smilingrocksco/">
-                                                <img src="/web/image/rocks.fb"/>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="https://www.instagram.com/smilingrocksco/">
-                                                <img src="/web/image/rocks.insta"/>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="https://twitter.com/smilingrocksco">
-                                                <img src="/web/image/rocks.twitter"/>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="https://www.youtube.com/channel/UC8ZQPBXjb_bgGJ5FjlywmqQ">
-                                                <img src="/web/image/rocks.youtube"/>
-                                            </a>
-                                        </li>                                       
+                                    <ul class="list-unstyled d-flex justify-content-around">
+                                        <li class="footer-nav-item"> <a href="#" class="p-2 rounded-pill text-secondary text-uppercase fw-bold text-decoration-none " style="letter-spacing:1px;"> Contact Us</a> </li>
+                                        <li class="footer-nav-item"> <a href="#" class="p-2 rounded-pill text-secondary text-uppercase fw-bold text-decoration-none " style="letter-spacing:1px;"> FAQ</a> </li>
+                                        <li class="footer-nav-item"> <a href="#" class="p-2 rounded-pill text-secondary text-uppercase fw-bold text-decoration-none " style="letter-spacing:1px;"> Service Policy</a> </li>
+                                        <li class="footer-nav-item"> <a href="#" class="p-2 rounded-pill text-secondary text-uppercase fw-bold text-decoration-none " style="letter-spacing:1px;"> Press</a> </li>
+                                        <li class="footer-nav-item"> <a href="#" class="p-2 rounded-pill text-secondary text-uppercase fw-bold text-decoration-none " style="letter-spacing:1px;"> Terms &amp; Privacy</a></li>                                   
                                     </ul>
                                 </nav>
+                            </div>
+                        </div>
+                        <hr class="text-secondary"/>
+                        <div class="row">
+                            <div class="container">
+                                <p class="copyright text-center text-secondary">
+                                    &#169; 2024, Smiling Rocks
+                                </p>
                             </div>
                         </div>
                     </div>
