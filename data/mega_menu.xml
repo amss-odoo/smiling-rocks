@@ -19,7 +19,7 @@
         <field name="website_id">1</field>
         <field name="sequence" type="int">1</field>
         <field name="is_mega_menu" eval="True"/>
-        <field name="mega_menu_classes">bg-primary</field>    
+        <field name="mega_menu_classes">bg-secondary</field>    
         <field name="mega_menu_content" type="html">
             <xpath expr="//*[@class='s_mega_menu_odoo_menu']" position="replace">
                 <div class="s_mega_menu p-5">
@@ -27,67 +27,67 @@
                         <div class="row">
                             <div class="col">
                                 <div class="fine">
-                                    <p class="fine-nav text-uppercase">Fine Jewelry</p>
+                                    <p class="fine-nav text-primary fw-bold text-uppercase">Fine Jewelry</p>
                                     <div class="fine-links d-flex gap-3">
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Rings</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Necklace</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Earrings</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Bracelets</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Shop All</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Rings</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Necklace</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Earrings</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Bracelets</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Shop All</a>
                                     </div>
                                 </div>
-                                <hr class="text-secondary"/>
+                                <hr class="text-primary"/>
                                 <div class="occasion">
-                                    <p class="fine-nav text-uppercase">For occasions</p>
+                                    <p class="fine-nav text-primary fw-bold text-uppercase">For occasions</p>
                                     <div class="fine-links d-flex gap-3">
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Smiling Brides</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Engagement &amp; Wedding</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Smiling Brides</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Engagement &amp; Wedding</a>
                                     </div>
                                 </div>
-                                <hr class="text-secondary"/>
+                                <hr class="text-primary"/>
                                 <div class="everyday">
-                                    <p class="fine-nav text-uppercase">Everyday Bling</p>
+                                    <p class="fine-nav text-primary fw-bold text-uppercase">Everyday Bling</p>
                                     <div class="fine-links d-flex gap-3">
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Frame</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Dvaita</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Bands</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Smiling Light</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Frame</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Dvaita</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Bands</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Smiling Light</a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col">
                                 <div class="color">
-                                    <p class="fine-nav text-uppercase">Pop of Color</p>
+                                    <p class="fine-nav text-primary fw-bold text-uppercase">Pop of Color</p>
                                     <div class="fine-links d-flex gap-3">
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Gemtastic</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Blush Blue</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Souffle Pink</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Gemtastic</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Blush Blue</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Souffle Pink</a>
                                     </div>
                                 </div>
-                                <hr class="text-secondary"/>
+                                <hr class="text-primary"/>
                                 <div class="genz">
-                                    <p class="fine-nav text-uppercase">GenZ Drip</p>
+                                    <p class="fine-nav text-primary fw-bold text-uppercase">GenZ Drip</p>
                                     <div class="fine-links d-flex gap-3">
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Sparkle</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Love Beads</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Big Heart</a>
-                                        <a href="#" class="nav-link px-0" data-name="Menu Item">Drizzle</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Sparkle</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Love Beads</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Big Heart</a>
+                                        <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Drizzle</a>
                                     </div>
                                 </div>
                                 <!-- <hr class="text-secondary"/> -->
                             </div>
                             <div class="col collections">
-                                <p class="fine-nav text-uppercase">Collections</p>
+                                <p class="fine-nav text-primary fw-bold text-uppercase">Collections</p>
                                 <div class="fine-links d-flex flex-column">
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Flora</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Linking Love</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Flow</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Mini Huggies</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Skyline</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Big Heart</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">Bubbly</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">My Type</a>
-                                    <a href="#" class="nav-link px-0" data-name="Menu Item">mini</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Flora</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Linking Love</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Flow</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Mini Huggies</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Skyline</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Big Heart</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">Bubbly</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">My Type</a>
+                                    <a href="#" class="nav-link link-primary px-0" data-name="Menu Item">mini</a>
                                 </div>
                             </div>
                             <div class="col menu-img">
