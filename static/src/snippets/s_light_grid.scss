@@ -22,6 +22,10 @@
     width: 60%;
 }
 
+.tile{
+    transition: all 300ms ease-in-out;
+}
+
 .tile:hover{
     background-color: #ece2e1;
 }
