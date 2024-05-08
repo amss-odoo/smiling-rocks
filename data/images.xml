@@ -119,4 +119,11 @@
         <field name="public" eval="True"/>
     </record>
 
+    <record id="login_bg" model="ir.attachment">
+        <field name="name">login_background</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/satin.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
 </odoo>
