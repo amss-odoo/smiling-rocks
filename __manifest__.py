@@ -22,6 +22,7 @@
         'views/snippets/s_blog.xml',
 
         'data/pages/home.xml',
+        'data/pages/login.xml',
     ],
     'assets':{
         'web._assets_primary_variables':[
@@ -31,6 +32,7 @@
             'rocks/static/src/scss/font.scss',
             'rocks/static/src/scss/mega_menu.scss',
             'rocks/static/src/scss/footer.scss',
+            'rocks/static/src/scss/login.scss',
             'rocks/static/src/snippets/s_hero.scss',
             'rocks/static/src/snippets/s_light_grid.scss',
             'rocks/static/src/snippets/s_banner.scss',
