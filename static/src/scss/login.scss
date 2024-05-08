@@ -1,0 +1,51 @@
+.satin{
+    background-image: url('/web/image/rocks.login_bg');
+    height: calc(100vh - 72px);
+    position: relative;
+}
+
+.satin::before{
+    content: ' ';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.inter{
+    font-family: 'Inter',sans-serif;
+}
+
+.lora{
+    font-family: 'Sora',serif;
+}
+
+.login-heading{
+    font-size: 5rem;
+}
+
+.form-box{
+    // background: radial-gradient(#deccca, #ab817c);
+    height: 80%;
+}
+
+.form-heading{
+    font-size: 3rem;
+    position: relative;
+}
+
+.form-heading::after{
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px;
+    width: 70%;
+    background-color: #AF847F;
+}
+
+.field-login input:focus{
+    background-color: #AF847F;
+}
