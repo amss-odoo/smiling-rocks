@@ -18,7 +18,7 @@
                         </p>
                     </div>
 
-                    <div class="form-box glass bg-primary rounded col-6 d-flex flex-column">
+                    <div class="form-box rounded col-6 d-flex flex-column">
                         <div class="d-flex flex-column justify-content-around h-100">
                         <h3 class="form-heading fw-bold inter text-uppercase fst-italic text-secondary">Your Account</h3>
                         <input type="hidden" name="csrf_token" t-att-value="request.csrf_token()"/>
