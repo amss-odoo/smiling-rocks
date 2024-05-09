@@ -126,4 +126,18 @@
         <field name="public" eval="True"/>
     </record>
 
+    <record id="about_bg" model="ir.attachment">
+        <field name="name">about_background</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/about-us.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="about_img" model="ir.attachment">
+        <field name="name">about_img</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/wear-a-smile.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
 </odoo>
