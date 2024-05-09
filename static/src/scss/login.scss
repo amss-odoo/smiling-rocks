@@ -27,7 +27,12 @@
 }
 
 .form-box{
-    // background: radial-gradient(#deccca, #ab817c);
+    background-color: rgba(222,204,202,0.7);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
     height: 80%;
 }
 
@@ -43,9 +48,9 @@
     left: 0;
     height: 2px;
     width: 70%;
-    background-color: #AF847F;
+    background-color: #251917;
 }
 
 .field-login input:focus{
-    background-color: #AF847F;
+    background-color: #d2bab7;
 }
