@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="page_about_us" model="website.page">
+        <field name="name">About Us</field>
+        <field name="is_published" eval="True" />
+        <field name="key">rocks.page_about_us</field>
+        <field name="url">/about-us</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t t-name="rocks.page_about_us">
+                <t t-call="website.layout">
+                    <div id="wrap" class="oe_structure">
+                        <div class="about-cover d-flex align-items-end justify-content-center">
+                            <h1 class="text-primary fw-bold">About us</h1>
+                        </div>
+                        <div class="wear-a-smile d-flex justify-content-center">
+                            <div class="container px-0 rounded bg-secondary row justify-content-end position-relative my-6">
+                                <div class="img-wrapper rounded position-absolute col-4">
+                                    <img src="/web/image/rocks.about_img" alt="Wear a Smile" class="h-100 w-100 rounded" />
+                                </div>
+                                <div class="text-wrapper d-flex flex-column justify-content-center text-primary h-100 col-6">
+                                    <h2 class="about-heading fw-bold fs-1">Wear a Smile</h2>
+                                    <p class="about-sub-text">
+                                        We want you to find reasons to smile in your everyday, from the time leaving your house to the endless experience of the day, we want you to be comfortable and confident wearing Smiling Rocks. Our unique designs and one-of-a-kind styles will bring your personality to a different level. Our sustainable, affordable and conflict-free lab grown diamond is perfect for your pocket! Love who you are, the way you look and the way you smile.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="why-we-smile">
+                            <h3 class="fs-3">Why we smile</h3>
+                            <p>
+                                Our goal is to put luxury, transparency and responsible sourcing in iur utmost priority. Our lab grown diamond are 100% identical to mined diamonds and much kinder to the earth. We want you to participate in our #giveback journey. 10% of your purchase is donated to your choice of charity. We want you to feel the power of Feeling Good while doing Good.
+                            </p>
+                        </div>
+                        <div class="founders-section">
+                            <h3 class="fs-3">About our founder</h3>
+                            <div class="founder-img">
+                                <img src="" alt=""/>
+                            </div>
+                            <p class="founder-text">
+                                We are on a mission to make this world a better place by first starting with us and our business. Zulu Ghevriya is a self-made businessman with over 20 years of experience in the Diamond and Jewelry industry. Our Lab Man have built this businesss as an embodiment of his dream and a lifetime goal. He has seen this industry strive but did not feel 100% satisfied with his accomplishment. He wanted to do something for the world, so that he can leave a positive footprint for the next generations. Smiling Rocks is a brand they built that promotes the betterment in communities and preserve our mother nature. He believes Smiling Rocks is the links for the smiles that will pass from the lab to the world.
+                            </p>
+                        </div>
+                    </div>
+                </t>
+            </t>
+        </field>
+    </record>
+
+
+</odoo> 
