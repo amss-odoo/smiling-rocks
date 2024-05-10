@@ -140,4 +140,18 @@
         <field name="public" eval="True"/>
     </record>
 
+    <record id="about_img_2" model="ir.attachment">
+        <field name="name">about_img_2</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/why-we-smile.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="founder" model="ir.attachment">
+        <field name="name">founder</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/founder.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+    
 </odoo>
