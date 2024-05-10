@@ -11,7 +11,7 @@
             <t t-name="rocks.page_about_us">
                 <t t-call="website.layout">
                     <div id="wrap" class="oe_structure">
-                        <div class="about-cover d-flex align-items-end justify-content-center">
+                        <div class="about-cover before d-flex align-items-end justify-content-center">
                             <h1 class="text-primary fw-bold">About us</h1>
                         </div>
                         <div class="wear-a-smile d-flex justify-content-center">
@@ -27,19 +27,23 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="why-we-smile">
-                            <h3 class="fs-3">Why we smile</h3>
-                            <p>
-                                Our goal is to put luxury, transparency and responsible sourcing in iur utmost priority. Our lab grown diamond are 100% identical to mined diamonds and much kinder to the earth. We want you to participate in our #giveback journey. 10% of your purchase is donated to your choice of charity. We want you to feel the power of Feeling Good while doing Good.
+                        <div class="why-we-smile before position-relative d-flex flex-column align-items-center justify-content-center p-3 ">
+                            <h3 class="why-heading fw-bold text-primary fs-1 mb-3">Why we smile</h3>
+                            <p class="why-text text-primary fw-light w-50 p-3 fs-5 rounded">
+                                Our goal is to put luxury, transparency and responsible sourcing in our utmost priority. Our lab grown diamond are 100% identical to mined diamonds and much kinder to the earth. We want you to participate in our #giveback journey. 10% of your purchase is donated to your choice of charity. We want you to feel the power of Feeling Good while doing Good.
                             </p>
                         </div>
-                        <div class="founders-section">
-                            <h3 class="fs-3">About our founder</h3>
-                            <div class="founder-img">
-                                <img src="" alt=""/>
+                        <div class="founders-section p-5 d-flex gap-3 flex-column align-items-center justify-content-center">
+                            <h3 class="fs-3 text-align-center text-secondary fw-bold">About our founder</h3>
+                            <div class="founder-img w-50 d-flex justify-content-center">
+                                <img src="/web/image/rocks.founder" alt="Founder" class="w-100 h-100"/>
                             </div>
-                            <p class="founder-text">
-                                We are on a mission to make this world a better place by first starting with us and our business. Zulu Ghevriya is a self-made businessman with over 20 years of experience in the Diamond and Jewelry industry. Our Lab Man have built this businesss as an embodiment of his dream and a lifetime goal. He has seen this industry strive but did not feel 100% satisfied with his accomplishment. He wanted to do something for the world, so that he can leave a positive footprint for the next generations. Smiling Rocks is a brand they built that promotes the betterment in communities and preserve our mother nature. He believes Smiling Rocks is the links for the smiles that will pass from the lab to the world.
+                            <p class="founder-text w-75">
+                                We are on a mission to make this world a better place by first starting with us and our business. <span class="fw-bold">Zulu Ghevriya</span> is a self-made businessman with over 20 years of experience in the Diamond and Jewelry industry.
+                                <br/>
+                                 Our Lab Man have built this businesss as an embodiment of his dream and a lifetime goal. He has seen this industry strive but did not feel 100% satisfied with his accomplishment. He wanted to do something for the world, so that he can leave a positive footprint for the next generations.
+                                <br/>
+                                 <span class="fw-bold">Smiling Rocks </span>is a brand they built that promotes the betterment in communities and preserve our mother nature. He believes Smiling Rocks is the links for the smiles that will pass from the lab to the world.
                             </p>
                         </div>
                     </div>
