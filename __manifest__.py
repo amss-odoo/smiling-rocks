@@ -24,6 +24,7 @@
         'data/pages/home.xml',
         'data/pages/login.xml',
         'data/pages/about_us.xml',
+        'data/pages/blog.xml',
     ],
     'assets':{
         'web._assets_primary_variables':[
