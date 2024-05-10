@@ -3,9 +3,11 @@
     height: 50vh;
     position: relative;
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-.about-cover::before{
+.before::before{
     content: ' ';
     height: 100%;
     width: 100%;
@@ -15,9 +17,11 @@
     background-color: rgba(0,0,0,0.5);
 }
 
+
 .about-cover h1{
     z-index: 1;
     letter-spacing: 10px;
+    text-transform: uppercase;
 }
 
 .wear-a-smile{
@@ -38,4 +42,25 @@
 
 .about-heading{
     letter-spacing: 1px;
+}
+
+.why-we-smile{
+    background-image: url('/web/image/rocks.about_img_2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.why-heading,.why-text{
+    z-index: 1;
+}
+
+.why-text{
+    text-align: justify;
+    background-color: rgba(0, 0, 0,0.5);
+}
+
+.founders-section{
+    background-color: #E7DAD9;
 }
