@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="page_blog" model="website.page">
+        <field name="name">Blog</field>
+        <field name="is_published" eval="True" />
+        <field name="key">rocks.page_blog</field>
+        <field name="url">/blog</field>
+        <field name="type">qweb</field>
+        <field name="arch" type="xml">
+            <t tname="rocks.blog">
+                <t t-call="website.layout">
+                  <div id="wrap" class="oe_structure">
+                    <div class="blog-section">
+                      <h1 class="blog-heading">Blog and Style Guide</h1>
+                      <p class="blog-subtext">
+                        Sharing our style and looks for lab grown diamond jewelry collections! A guide for you to find different ways to stylize your wardrobe with the latest fashion trends in the lab created diamond and jewelry world.
+                      </p>
+                    </div>
+                    <div class="blog-grid container">
+                      <div class="row">
+                        <div class="col-8 row">
+                            <div class="img-box col-6">
+                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
+                            </div>
+                            <div class="text-box col-6">
+                                <h4 class="blog-title">Adding to heirlooms</h4>
+                                <p class="blog-date">August 16, 2023</p>
+                            </div>
+                        </div>
+                        <div class="col-4 flex-column">
+                            <div class="img-box col-8">
+                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
+                            </div>
+                            <div class="text-box col-4">
+                                <h4 class="blog-title">Adding to heirlooms</h4>
+                                <p class="blog-date">August 16, 2023</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                            <div class="img-box col-8">
+                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
+                            </div>
+                            <div class="text-box col-4">
+                                <h4 class="blog-title">Adding to heirlooms</h4>
+                                <p class="blog-date">August 16, 2023</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-box col-8">
+                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
+                            </div>
+                            <div class="text-box col-4">
+                                <h4 class="blog-title">Adding to heirlooms</h4>
+                                <p class="blog-date">August 16, 2023</p>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="img-box col-8">
+                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
+                            </div>
+                            <div class="text-box col-4">
+                                <h4 class="blog-title">Adding to heirlooms</h4>
+                                <p class="blog-date">August 16, 2023</p>
+                            </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <div class="row">
+                            <div class="col"></div>
+                            <div class="col"></div>
+                          </div>
+                        </div>
+                        <div class="col"></div>
+                      </div>
+                    </div>
+                  </div>
+                </t>
+            </t>
+        </field>
+    </record>
+</odoo>
