@@ -153,5 +153,40 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>
+
+    <record id="moon" model="ir.attachment">
+        <field name="name">moon</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/moon.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="smiling_light" model="ir.attachment">
+        <field name="name">smiling_light</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/smiling-light.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="tennis" model="ir.attachment">
+        <field name="name">tennis</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/tennis.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="future" model="ir.attachment">
+        <field name="name">future</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/future.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
+    <record id="mothers" model="ir.attachment">
+        <field name="name">mothers</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/mothers.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
     
 </odoo>
