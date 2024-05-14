@@ -36,6 +36,7 @@
             'rocks/static/src/scss/footer.scss',
             'rocks/static/src/scss/login.scss',
             'rocks/static/src/scss/about.scss',
+            'rocks/static/src/scss/blog.scss',
             'rocks/static/src/snippets/s_hero.scss',
             'rocks/static/src/snippets/s_light_grid.scss',
             'rocks/static/src/snippets/s_banner.scss',
