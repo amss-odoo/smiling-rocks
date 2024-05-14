@@ -10,70 +10,59 @@
             <t tname="rocks.blog">
                 <t t-call="website.layout">
                   <div id="wrap" class="oe_structure">
-                    <div class="blog-section">
-                      <h1 class="blog-heading">Blog and Style Guide</h1>
-                      <p class="blog-subtext">
+                    <div class="blog-section mt-3 d-flex flex-column align-items-center">
+                      <h1 class="blog-heading fw-bold">Blog and Style Guide</h1>
+                      <p class="blog-subtext w-50 text-center">
                         Sharing our style and looks for lab grown diamond jewelry collections! A guide for you to find different ways to stylize your wardrobe with the latest fashion trends in the lab created diamond and jewelry world.
                       </p>
                     </div>
-                    <div class="blog-grid container">
-                      <div class="row">
-                        <div class="col-8 row">
-                            <div class="img-box col-6">
-                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
-                            </div>
-                            <div class="text-box col-6">
-                                <h4 class="blog-title">Adding to heirlooms</h4>
-                                <p class="blog-date">August 16, 2023</p>
-                            </div>
-                        </div>
-                        <div class="col-4 flex-column">
-                            <div class="img-box col-8">
-                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
-                            </div>
-                            <div class="text-box col-4">
-                                <h4 class="blog-title">Adding to heirlooms</h4>
-                                <p class="blog-date">August 16, 2023</p>
+                    <div class="blog-grid container d-flex flex-column gap-4">
+                      <div class="row gap-3">
+                        <div class="col-8 d-flex position-relative before-grad justify-content-start align-items-end overflow-hidden rounded-3" style="background-image: url('/web/image/rocks.heirloom'); background-position: bottom;">
+                            <!-- <div class="img-box w-100 h-100 position-absolute">
+                                 <img src=" alt="Heirloom" class="w-100 h-100"/> 
+                            </div> -->
+                            <div class="text-box row before-grad-text gap-2 p-3">
+                                <h4 class="blog-title text-primary">Adding to heirlooms</h4>
+                                <p class="blog-date text-primary fs-6">August 16, 2023</p>
                             </div>
                         </div>
-                      </div>
-                      <div class="row">
-                        <div class="col">
-                            <div class="img-box col-8">
-                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
-                            </div>
-                            <div class="text-box col-4">
-                                <h4 class="blog-title">Adding to heirlooms</h4>
-                                <p class="blog-date">August 16, 2023</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="img-box col-8">
-                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
-                            </div>
-                            <div class="text-box col-4">
-                                <h4 class="blog-title">Adding to heirlooms</h4>
-                                <p class="blog-date">August 16, 2023</p>
-                            </div>
-                        </div>
-                        <div class="col">
-                            <div class="img-box col-8">
-                                <img src="/web/image/rocks.heirloom" alt="Heirloom" class="w-100 h-100"/>
-                            </div>
-                            <div class="text-box col-4">
-                                <h4 class="blog-title">Adding to heirlooms</h4>
-                                <p class="blog-date">August 16, 2023</p>
+                        <div class="col d-flex align-items-end position-relative before-grad w-100 rounded-3 overflow-hidden" style="background-image:url('/web/image/rocks.moon');background-size: cover;">
+                            <!-- <div class="img-box col-8" > -->
+                            <!-- </div> -->
+                            <div class="text-box row before-grad-text col-4 p-3 gap-2 w-100">
+                                <h4 class="blog-title text-primary d-inline-block">Become a Moonchild</h4>
+                                <p class="blog-date text-primary fs-6">August 10, 2023</p>
                             </div>
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col">
-                          <div class="row">
-                            <div class="col"></div>
-                            <div class="col"></div>
-                          </div>
+                        <div class="col d-flex align-items-end position-relative before-grad w-100 rounded-3 overflow-hidden" style="background-image:url('/web/image/rocks.smiling_light');background-size: cover; background-position:center;">
+                            <div class="text-box row gap-2 before-grad-text col-4 p-3 w-100">
+                                <h4 class="blog-title text-primary d-inline-block">Smiling Lights</h4>
+                                <p class="blog-date text-primary fs-6">September 04, 2023</p>
+                            </div>
                         </div>
-                        <div class="col"></div>
+                      </div>
+                      <div class="row gap-3">
+                        <div class="col d-flex align-items-end position-relative before-grad w-100 rounded-3 overflow-hidden" style="background-image:url('/web/image/rocks.tennis');background-size: cover;">
+                            <div class="text-box row gap-2 before-grad-text col-4 p-3 w-100">
+                                <h4 class="blog-title text-primary d-inline-block">Tennis Bracelets</h4>
+                                <p class="blog-date text-primary fs-6">August 12, 2023</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-end position-relative before-grad w-100 rounded-3 overflow-hidden" style="background-image:url('/web/image/rocks.future');background-size: cover;">
+                            <div class="text-box row gap-2 before-grad-text col-4 p-3 w-100">
+                                <h4 class="blog-title text-primary d-inline-block">The Future of Diamonds</h4>
+                                <p class="blog-date text-primary fs-6">July 07, 2023</p>
+                            </div>
+                        </div>
+                        <div class="col d-flex align-items-end position-relative before-grad w-100 rounded-3 overflow-hidden" style="background-image:url('/web/image/rocks.mothers');background-size: cover; background-position:center;">
+                            <div class="text-box row gap-2 before-grad-text col-4 p-3 w-100">
+                                <h4 class="blog-title text-primary d-inline-block">Mother's Day Gifting Guide</h4>
+                                <p class="blog-date text-primary fs-6">May 04, 2023</p>
+                            </div>
+                        </div>
                       </div>
                     </div>
                   </div>
