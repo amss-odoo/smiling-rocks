@@ -33,12 +33,12 @@
 
                         <div class="mb-3 field-login">
                             <label for="login" class="form-label fs-3 inter fst-italic">Email</label>
-                            <input type="text" placeholder="johndoe@email.com" name="login" t-att-value="login" id="login" t-attf-class="p-2 h-75 form-control #{'form-control-sm' if form_small else ''}" required="required" autofocus="autofocus" autocapitalize="off"/>
+                            <input type="text" placeholder="johndoe@email.com" name="login" t-att-value="login" id="login" t-attf-class="p-3 form-control #{'form-control-sm' if form_small else ''}" required="required" autofocus="autofocus" autocapitalize="off"/>
                         </div>
 
                         <div class="mb-3 field-login">
                             <label for="password" class="form-label fs-3 inter fst-italic">Password</label>
-                            <input type="password" placeholder="Password" name="password" id="password" t-attf-class="p-2 h-75 form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
+                            <input type="password" placeholder="Password" name="password" id="password" t-attf-class="p-3 form-control #{'form-control-sm' if form_small else ''}" required="required" autocomplete="current-password" t-att-autofocus="'autofocus' if login else None" maxlength="4096"/>
                         </div>
 
                         <p class="alert alert-danger" t-if="error" role="alert">
