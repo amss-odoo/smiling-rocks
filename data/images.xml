@@ -188,5 +188,19 @@
         <field name="res_model">ir.ui.view</field>
         <field name="public" eval="True"/>
     </record>
+
+    <record id="blog_bg" model="ir.attachment">
+        <field name="name">blog_bg</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/uuunion.svg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
     
+    <record id="cta_bg" model="ir.attachment">
+        <field name="name">cta_bg</field>
+        <field name="datas" type="base64" file="rocks/static/src/img/content/cta_bg.jpg"/>
+        <field name="res_model">ir.ui.view</field>
+        <field name="public" eval="True"/>
+    </record>
+
 </odoo>
