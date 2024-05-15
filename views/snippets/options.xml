@@ -17,6 +17,9 @@
                         <t t-snippet="rocks.s_blog" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
                             <keywords>blog,blog list</keywords>
                         </t>
+                        <t t-snippet="rocks.s_cta" t-thumbnail="/rocks/static/src/img/wbuilder/tour.jpg">
+                            <keywords>cta,newsletter</keywords>
+                        </t>
                     </div>
                 </div>
             </t>
