@@ -20,6 +20,7 @@
         'views/snippets/s_light_grid.xml',
         'views/snippets/s_banner.xml',
         'views/snippets/s_blog.xml',
+        'views/snippets/s_cta.xml',
 
         'data/pages/home.xml',
         'data/pages/login.xml',
@@ -33,6 +34,7 @@
         'web.assets_frontend': [
             'rocks/static/src/scss/font.scss',
             'rocks/static/src/scss/mega_menu.scss',
+            'rocks/static/src/scss/header.scss',
             'rocks/static/src/scss/footer.scss',
             'rocks/static/src/scss/login.scss',
             'rocks/static/src/scss/about.scss',
@@ -41,6 +43,7 @@
             'rocks/static/src/snippets/s_light_grid.scss',
             'rocks/static/src/snippets/s_banner.scss',
             'rocks/static/src/snippets/s_blog.scss',
+            'rocks/static/src/snippets/s_cta.scss',
         ]
     },
     'installable':'True',
